@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SQL interact</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+        <div class="task-button"><a href="{% url 'llm_interact_student' %}"><button>Practice Queries with LLM</button></a></div>
+        <div class="task-button"><a href="{% url 'llm_view_record' %}"><button>View Your Past Practicing Records</button></a></div>
+
+
+</body>
+</html>

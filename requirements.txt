@@ -1,0 +1,5 @@
+Django>=4.2.20
+PyMySQL==1.1.1
+mysql-connector-python==9.2.0
+openai==1.69.0
+PyMySQL
